@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/sushi-solid-24.png" type="image/png">
+
+    <title>SushiParadise</title>
+</head>
+<body>
+    <header>
+        <div class="nav container"  >
+            <a href="#" class="logo">SushiParadise <i class='bx bxs-sushi'></i></a> 
+            
+            <i class='bx bx-menu'  id="menu-icon"></i><i class='' id="menu-icon"></i>
+            <ul class="navbar">
+            <li ><a class="navbarli" href="#">Головна</a></li>
+            <li ><a class="navbarli" href="#about">Про нас</a></li>
+            <li ><a class="navbarli" href="#menu">Меню</a></li>
+            <li ><a class="navbarli" href="#services">Сервіс</a></li>
+            <li ><a class="navbarli" href="#contact">Контакти</a></li>
+          <li>><i class='bx bx-shopping-bag' id="cart-icon"></i></li>
+            </ul>
+       
+    
+            <div class="cart">
+                <h2 class="cart-title">Ваше замовлення</h2>
+                <div class="cart-content">
+                     
+             </div>
+                <div class="total">
+                    <div class="total-title">Вартість </div>
+                    <div class="total-price">₴0</div>
+                
+                    </div>
+                    <h5 class="inputorderh">Ваш номер телефону</h5>
+                    <input class="inputorderi" type="text" >
+                    <h5 class="inputorderh">Вашa aдреса</h5>
+                    <input class="inputorderi" type="text" >
+                   <a href=""> <button  type="button" class="btn-buy">Замовити</button></a>
+                  <i class='bx bx-x' id="close-cart"></i>
+                
+            </div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>SushiParadise <i class='bx bxs-sushi'></i></h1>
+          <a href="tel:+380965303596" class="h2title"><h2>096 530 35 96</h2></a>
+            <h2>це ваш найкращий вибір на сьогодні</h2>
+            <a href="#menu" class="btn">Дивитись меню</a>
+        </div>
+        <div class="home-img">
+            <img src="img/sushi-roll-isolated-on-white-background_93675-23894.webp" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/387-3873655_sushi-png-download-combinado-sushi-png.png" alt="">
+        </div>
+            <div class="about-text">
+                <span>Про нас</span>
+                <h2>Обирайте суші, <br> які вам подобаються
+                    про все інше ми подбаємо</h2>
+                <p>Шевченка 118.Київ</p>
+                <p>2021-2022</p> 
+        </div>
+ </section>
+
+
+
+
+    <section class="shop container" id="menu">
+        <h4 class="spanmenu">Меню</h4>
+        <h2 class="section-title">Роли</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/Filadelfiya-klasik-z-vugrem_-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Вугор</h2>
+                <p>Склад: Норі, Рис, Сир філа, Вугор, Унагі соус, Кунжут.</p>
+                <span class="price">₴125</span>
+                
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/Filadelfiya-sezam-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Сезам</h2>
+                <p>Склад: Норі, Рис, Огірок, Сир філа, Кунжут.</p>
+                <span class="price">₴90</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+                
+            </div>
+            <div class="product-box">
+                <img src="img/Filadelfiya-z-krevetkoyu_-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Тигрова креветка</h2>
+                <p>Склад: Норі, Рис, Сир філа, Огірок, Тигрова креветка.</p>
+                <span class="price">₴145</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+               
+            </div>
+            <div class="product-box">
+                <img src="img/Filadelfiya-z-lososem-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Лосось</h2>
+                <p>Склад: Норі, Рис, Сир філа, Огірок, Лосось сирий.</p>
+                <span class="price">₴190</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+                
+            </div>
+            <div class="product-box">
+                <img src="img/Filadelfiya-z-tuntsem-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Тунець</h2>
+                <p>Склад: Норі, Рис, Сир філа, Огірок, Тунець, Унагі соус.</p>
+                <span class="price">₴155</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+                
+            </div>
+            <div class="product-box">
+                <img src="img/Filadelfiya-z-vugrem-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Класичний вугор</h2>
+                <p>Склад: Норі, Рис, Сир філа, Огірок, Тигрова креветка.</p>
+                <span class="price">₴250</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+                
+            </div>
+            <div class="product-box">
+                <img src="img/Vognyanyy-drakon_-1-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Дракон вогняний</h2>
+                <p>Склад: Норі, Рис, Тигрова креветка, Огірок.</p>
+                <span class="price">₴197</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+              
+            </div>
+            <div class="product-box">
+                <img src="img/Zelenyy-drakon-1-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Дракон зелений</h2>
+                <p>Склад: Норі, Рис, Сир філа, Вугор, Ікра тобіко, Авокадо.</p>
+                <span class="price">₴167</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop container" > 
+        
+        <h2 class="section-title">Сети</h2>
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/Set-Filadelfiya-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Сет "Осама"</h2>
+                <p>Склад: Рол Гриль голд, Спайсі рол, Філадельфія з лососем, Авокадо рол.</p>
+                <span class="price">₴650</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/Set-Osama-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Сет "Токіо"</h2>
+                <p>Склад: Філа з лососесм, Філа з тунцем, Філа з копч.лососем, Філа з вугрем ½.</p>
+                <span class="price">₴530</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+            <div class="product-box">
+                <img src="img/Set-Filadelfiya-450x450.jpg" alt="" class="product-img">
+                <h2 class="product-title">Сет "Філадельфія"</h2>
+                <p>Склад: Філадельфія з лососем, Філадельфія з тигровою креветкою.</p>
+                <span class="price">₴730</span>
+                <i class='bx bx-shopping-bag add-cart' ></i>
+            </div>
+         
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Сервіс</span>
+            <h2>У нас дуже простий сервіс, виглядає він так
+
+            </h2>
+        </div>
+        <div class="services-container">
+            <div class="s-box">
+                <img src="img/1.png" alt="">
+                <h3>Ви вибираєте суші, та <br> робите онлайн замовлення
+                </h3>
+            </div>
+            <div class="s-box">
+                <img src="img/Без названия (1).png" alt="">
+                <h3>Ми віддаємо кур'єру <br> ваше замовлення
+                </h3>
+            </div>
+            <div class="s-box">
+                <img src="img/Без названия.png" alt="">
+                <h3>Ви отримуєте <br> своє замовлення
+                </h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="connect">
+        <div class="connect-text">
+            <span>Зробити замовлення через Instagram</span>
+            <h2>Наш Instagram</h2>
+        </div>
+        <a href="https://www.instagram.com/kostiukvova_/?igshid=YmMyMTA2M2Y%3D" class="btn">Написати нам!</a>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>SushiParadise <i class='bx bxs-sushi'></i></h3>
+            <span>Ми у соціальних мережах</span>
+            <div class="social">
+                <a href="https://www.instagram.com/kostiukvova_/?igshid=YmMyMTA2M2Y%3D"><i class='bx bxl-instagram'></i></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100011705317595"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://t.me/mowproduction"><i class='bx bxl-telegram'></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="#home">Головна</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#services">Сервіс</a></li>
+            <li><a href="#contact">Контакти</a></li>
+        </div>
+
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map'><span>Шевченка 118.Київ</span></i>
+            <i class='bx bxs-phone'><span>096 530 35 96</span></i>
+            <i class='bx bxs-envelope' ><span>sushiparadise@gmail.com</span></i>
+        </div>
+    </section>
+<div class="copy">
+    Сreated by Volodymyr Kostiuk
+</div>
+
+
+
+
+     
+
+<script src="https://unpkg.com/scrollreveal"></script> 
+<script src="main.js"></script>
+
+</body>
+</html>
